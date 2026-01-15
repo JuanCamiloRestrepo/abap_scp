@@ -1,0 +1,12 @@
+@Metadata.layer: #CORE
+annotate entity ZV_DETAILS_CUSTOMER with
+{
+  @UI.lineItem: [{ position: 10, importance: #HIGH }]
+  Nombres;
+  @UI.lineItem: [{ position: 20, importance: #HIGH }]
+  Apellidos;
+  @UI.lineItem: [{ position: 30, importance: #HIGH, label: 'Correo Electrónico' }]
+  Correo;
+  @UI.lineItem: [{ position: 40, importance: #HIGH, label: 'Tipo de Contrato' }]
+  TipoContrato;
+}
